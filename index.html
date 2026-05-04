@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lara Turgut — Software Developer portfolio">
+  <title>Lara Turgut</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#hero" class="nav-logo">Lara Turgut</a>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+      </svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="5"/>
+        <line x1="12" y1="1" x2="12" y2="3"/>
+        <line x1="12" y1="21" x2="12" y2="23"/>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+        <line x1="1" y1="12" x2="3" y2="12"/>
+        <line x1="21" y1="12" x2="23" y2="12"/>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+      </svg>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name">Lara Turgut</h1>
+      <p class="hero-title">Software Developer</p>
+      <p class="hero-bio">
+        I build clean, purposeful software. Passionate about web development,
+        data science, and creating things that actually work well.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a Computer Science student and software developer with a focus on
+            building well-crafted applications. I enjoy working across the stack —
+            from designing intuitive interfaces to building robust back-end systems.
+          </p>
+          <p>
+            When I'm not coding, I'm exploring new technologies, contributing to
+            open source, or diving into data science problems. I'm always looking
+            for opportunities to learn and create meaningful things.
+          </p>
+          <!-- Replace href with your actual CV link -->
+          <a href="#" class="btn btn-primary">Download CV</a>
+        </div>
+        <div class="about-image">
+          <!-- Replace this div with an <img> tag when you have a photo -->
+          <div class="img-placeholder">LT</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Java</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML & CSS</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Frameworks</h3>
+          <div class="skill-tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Spring Boot</span>
+            <span class="tag">Flask</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Data & ML</h3>
+          <div class="skill-tags">
+            <span class="tag">NumPy</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Matplotlib</span>
+            <span class="tag">scikit-learn</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Tools</h3>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">Docker</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Linux</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="card">
+          <h3 class="card-title">Project One</h3>
+          <p class="card-desc">
+            A full-stack web application that does something useful.
+            Built with a focus on performance and clean UX.
+          </p>
+          <div class="card-tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/lturgut" class="btn-link" target="_blank" rel="noopener">GitHub →</a>
+            <a href="#" class="btn-link" target="_blank" rel="noopener">Live →</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">Project Two</h3>
+          <p class="card-desc">
+            A data analysis dashboard that visualizes interesting patterns
+            in large datasets. Uses Python for data processing and a web front-end.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Matplotlib</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/lturgut" class="btn-link" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">Project Three</h3>
+          <p class="card-desc">
+            A Java application built with Spring Boot. Handles complex
+            business logic with a REST API and thorough test coverage.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Java</span>
+            <span class="tag">Spring Boot</span>
+            <span class="tag">MySQL</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/lturgut" class="btn-link" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>Software Development Intern</h3>
+            <span class="timeline-date">Summer 2025</span>
+          </div>
+          <p class="timeline-company">Company Name</p>
+          <p class="timeline-desc">
+            Developed and maintained features for a production web application.
+            Worked closely with senior engineers on architecture decisions and
+            contributed to a 20% improvement in page load times.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>B.Sc. Computer Science</h3>
+            <span class="timeline-date">2022 — Present</span>
+          </div>
+          <p class="timeline-company">University Name</p>
+          <p class="timeline-desc">
+            Studying Computer Science with a focus on software engineering and
+            data science. Relevant coursework: Algorithms, Operating Systems,
+            Database Systems, Machine Learning.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt">
+    <div class="container contact-container">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-intro">
+        I'm always open to new opportunities, collaborations, or just a good
+        conversation. Feel free to reach out.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:laraturgut@gmail.com" class="contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+          laraturgut@gmail.com
+        </a>
+        <a href="https://github.com/lturgut" class="contact-item" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+          </svg>
+          github.com/lturgut
+        </a>
+        <a href="https://linkedin.com/in/lturgut" class="contact-item" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect x="2" y="9" width="4" height="12"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+          linkedin.com/in/lturgut
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Lara Turgut</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
