@@ -499,6 +499,83 @@ a {
   color: var(--accent);
 }
 
+/* === Publications === */
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.pub-item {
+  border-left: 2px solid var(--border);
+  padding-left: 1.5rem;
+}
+
+.pub-authors {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-bottom: 0.2rem;
+}
+
+.pub-title {
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 0.2rem;
+}
+
+.pub-meta {
+  font-size: 0.825rem;
+  color: var(--accent);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.pub-desc {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+/* === Card badges === */
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.card-badge {
+  font-size: 0.725rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  background: var(--tag-bg);
+  color: var(--text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.card-badge--gold {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+[data-theme="dark"] .card-badge--gold {
+  background: #2d1f00;
+  color: #fbbf24;
+}
+
+/* === Subsection labels === */
+.subsection-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+}
+
 /* === Footer === */
 footer {
   border-top: 1px solid var(--border);

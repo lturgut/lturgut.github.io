@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Lara Turgut — Software Developer portfolio">
+  <meta name="description" content="Lara Turgut — Physics MSc Candidate at ETH Zurich, Machine Learning & Probabilistic Modeling">
   <title>Lara Turgut</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -18,6 +18,7 @@
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#publications">Publications</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -44,10 +45,10 @@
     <div class="container">
       <p class="hero-greeting">Hi, I'm</p>
       <h1 class="hero-name">Lara Turgut</h1>
-      <p class="hero-title">Software Developer</p>
+      <p class="hero-title">Physics MSc Candidate · Machine Learning & Probabilistic Modeling</p>
       <p class="hero-bio">
-        I build clean, purposeful software. Passionate about web development,
-        data science, and creating things that actually work well.
+        I work at the intersection of physics and machine learning — building generative models,
+        equivariant architectures, and probabilistic methods for complex scientific problems at ETH Zurich.
       </p>
       <div class="hero-cta">
         <a href="#projects" class="btn btn-primary">View Projects</a>
@@ -63,20 +64,20 @@
       <div class="about-grid">
         <div class="about-text">
           <p>
-            I'm a Computer Science student and software developer with a focus on
-            building well-crafted applications. I enjoy working across the stack —
-            from designing intuitive interfaces to building robust back-end systems.
+            I'm a Physics MSc candidate at ETH Zurich (GPA 5.63/6.0), specialising in machine learning
+            and probabilistic modeling. My master's thesis — graded 6.0/6.0 — focused on implementing
+            gauge-equivariant U-Net architectures for diffusion models and continuous normalizing flows,
+            as part of an international research collaboration in computational physics.
           </p>
           <p>
-            When I'm not coding, I'm exploring new technologies, contributing to
-            open source, or diving into data science problems. I'm always looking
-            for opportunities to learn and create meaningful things.
+            Beyond research, I've won 1st place at the UN OCHA Datathon and the UBS Case Competition
+            at ETH Zurich, and I serve as Head of Marketing at the Analytics Club at ETH (ACE).
+            I enjoy problems that sit at the edge of rigorous theory and practical impact.
           </p>
-          <!-- Replace href with your actual CV link -->
-          <a href="#" class="btn btn-primary">Download CV</a>
+          <a href="CV (17).pdf" class="btn btn-primary" target="_blank" rel="noopener">Download CV</a>
         </div>
         <div class="about-image">
-          <!-- Replace this div with an <img> tag when you have a photo -->
+          <!-- Replace with <img src="photo.jpg" alt="Lara Turgut"> when ready -->
           <div class="img-placeholder">LT</div>
         </div>
       </div>
@@ -92,28 +93,30 @@
           <h3>Languages</h3>
           <div class="skill-tags">
             <span class="tag">Python</span>
-            <span class="tag">Java</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">HTML & CSS</span>
+            <span class="tag">C++</span>
+            <span class="tag">Julia</span>
             <span class="tag">SQL</span>
           </div>
         </div>
         <div class="skill-category">
-          <h3>Frameworks</h3>
+          <h3>ML & Scientific</h3>
           <div class="skill-tags">
-            <span class="tag">React</span>
-            <span class="tag">Node.js</span>
-            <span class="tag">Spring Boot</span>
-            <span class="tag">Flask</span>
+            <span class="tag">PyTorch</span>
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">SciPy</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Matplotlib</span>
           </div>
         </div>
         <div class="skill-category">
-          <h3>Data & ML</h3>
+          <h3>Methods</h3>
           <div class="skill-tags">
-            <span class="tag">NumPy</span>
-            <span class="tag">Pandas</span>
-            <span class="tag">Matplotlib</span>
-            <span class="tag">scikit-learn</span>
+            <span class="tag">Diffusion Models</span>
+            <span class="tag">Normalizing Flows</span>
+            <span class="tag">Bayesian Modeling</span>
+            <span class="tag">Monte Carlo</span>
+            <span class="tag">Equivariant NNs</span>
           </div>
         </div>
         <div class="skill-category">
@@ -121,8 +124,8 @@
           <div class="skill-tags">
             <span class="tag">Git</span>
             <span class="tag">Docker</span>
-            <span class="tag">VS Code</span>
-            <span class="tag">Linux</span>
+            <span class="tag">LaTeX</span>
+            <span class="tag">PostgreSQL</span>
           </div>
         </div>
       </div>
@@ -136,109 +139,201 @@
       <div class="projects-grid">
 
         <div class="card">
-          <h3 class="card-title">Project One</h3>
+          <div class="card-header">
+            <h3 class="card-title">Gauge-Equivariant U-Net for Generative Models</h3>
+            <span class="card-badge">Thesis · 6.0/6.0</span>
+          </div>
           <p class="card-desc">
-            A full-stack web application that does something useful.
-            Built with a focus on performance and clean UX.
+            Implemented and evaluated a gauge-equivariant U-Net architecture for generative modeling
+            on SU(N) lattice gauge theories. Applied diffusion models as efficient alternatives to
+            traditional MCMC sampling, within an international research collaboration at ETH Zurich.
           </p>
           <div class="card-tags">
-            <span class="tag">React</span>
-            <span class="tag">Node.js</span>
-            <span class="tag">PostgreSQL</span>
+            <span class="tag">PyTorch</span>
+            <span class="tag">Diffusion Models</span>
+            <span class="tag">Equivariant NNs</span>
+            <span class="tag">Python</span>
           </div>
           <div class="card-links">
             <a href="https://github.com/lturgut" class="btn-link" target="_blank" rel="noopener">GitHub →</a>
-            <a href="#" class="btn-link" target="_blank" rel="noopener">Live →</a>
           </div>
         </div>
 
         <div class="card">
-          <h3 class="card-title">Project Two</h3>
+          <div class="card-header">
+            <h3 class="card-title">LLM Benchmarking for Financial Reasoning</h3>
+            <span class="card-badge">Ongoing</span>
+          </div>
           <p class="card-desc">
-            A data analysis dashboard that visualizes interesting patterns
-            in large datasets. Uses Python for data processing and a web front-end.
+            In collaboration with Apertus (Swiss LLM initiative). Benchmarking large language models
+            on compositional financial reasoning tasks. Designed synthetic financial datasets and
+            multi-step Q&amp;A pairs using expression trees to evaluate model reasoning.
+          </p>
+          <div class="card-tags">
+            <span class="tag">LLMs</span>
+            <span class="tag">Python</span>
+            <span class="tag">NLP</span>
+            <span class="tag">Benchmarking</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/lturgut" class="btn-link" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">UN OCHA Datathon — 1st Place</h3>
+            <span class="card-badge card-badge--gold">🏆 1st Place</span>
+          </div>
+          <p class="card-desc">
+            Switzerland's largest ML hackathon. Built an explainable Bayesian model to identify
+            under-funded humanitarian crises, using a latent variable capturing systematic donor
+            neglect informed by needs, funding, and donor priorities.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Bayesian Modeling</span>
+            <span class="tag">Python</span>
+            <span class="tag">Explainable AI</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">BKT Transition in the 2D XY Model</h3>
+            <span class="card-badge">Research</span>
+          </div>
+          <p class="card-desc">
+            Simulated the 2D classical XY model using the Wolff cluster algorithm to study the
+            Berezinskii–Kosterlitz–Thouless phase transition in an interdisciplinary team at ETH Zurich.
           </p>
           <div class="card-tags">
             <span class="tag">Python</span>
-            <span class="tag">Pandas</span>
-            <span class="tag">Matplotlib</span>
+            <span class="tag">Monte Carlo</span>
+            <span class="tag">Statistical Physics</span>
           </div>
           <div class="card-links">
             <a href="https://github.com/lturgut" class="btn-link" target="_blank" rel="noopener">GitHub →</a>
           </div>
         </div>
 
-        <div class="card">
-          <h3 class="card-title">Project Three</h3>
-          <p class="card-desc">
-            A Java application built with Spring Boot. Handles complex
-            business logic with a REST API and thorough test coverage.
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications" class="section">
+    <div class="container">
+      <h2 class="section-title">Publications</h2>
+      <div class="pub-list">
+        <div class="pub-item">
+          <p class="pub-authors">Komijani, J., Marinković, M. K., <strong>Turgut, L.</strong></p>
+          <p class="pub-title">Diffusion Models for SU(N) Gauge Theories</p>
+          <p class="pub-meta">Manuscript in preparation · 2026</p>
+          <p class="pub-desc">
+            Built and validated a gauge-equivariant U-Net architecture for generative modeling on SU(N)
+            lattice gauge theories, with findings directly shaping an international research collaboration
+            led by the ETH Zurich High Performance Computational Physics group.
           </p>
-          <div class="card-tags">
-            <span class="tag">Java</span>
-            <span class="tag">Spring Boot</span>
-            <span class="tag">MySQL</span>
-          </div>
-          <div class="card-links">
-            <a href="https://github.com/lturgut" class="btn-link" target="_blank" rel="noopener">GitHub →</a>
-          </div>
         </div>
-
       </div>
     </div>
   </section>
 
   <!-- EXPERIENCE -->
-  <section id="experience" class="section">
+  <section id="experience" class="section section-alt">
     <div class="container">
       <h2 class="section-title">Experience</h2>
+
+      <h3 class="subsection-label">Education</h3>
       <div class="timeline">
-
         <div class="timeline-item">
           <div class="timeline-header">
-            <h3>Software Development Intern</h3>
-            <span class="timeline-date">Summer 2025</span>
+            <h3>MSc Physics</h3>
+            <span class="timeline-date">2023 — present</span>
           </div>
-          <p class="timeline-company">Company Name</p>
+          <p class="timeline-company">ETH Zurich, Switzerland · GPA 5.63/6.0</p>
           <p class="timeline-desc">
-            Developed and maintained features for a production web application.
-            Worked closely with senior engineers on architecture decisions and
-            contributed to a 20% improvement in page load times.
+            Specialising in machine learning and probabilistic modeling. Exchange semester at EPFL
+            (2023–2024). Thesis on gauge-equivariant generative architectures, graded 6.0/6.0.
           </p>
         </div>
-
         <div class="timeline-item">
           <div class="timeline-header">
-            <h3>B.Sc. Computer Science</h3>
-            <span class="timeline-date">2022 — Present</span>
+            <h3>BSc Physics</h3>
+            <span class="timeline-date">2019 — 2023</span>
           </div>
-          <p class="timeline-company">University Name</p>
+          <p class="timeline-company">ETH Zurich, Switzerland</p>
           <p class="timeline-desc">
-            Studying Computer Science with a focus on software engineering and
-            data science. Relevant coursework: Algorithms, Operating Systems,
-            Database Systems, Machine Learning.
+            Bachelor project: The Caesium Magnetometer Array of the Gradiometer for the n2EDM
+            Experiment at PSI.
           </p>
         </div>
+      </div>
 
+      <h3 class="subsection-label" style="margin-top: 2.5rem;">Work & Teaching</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>Head of Marketing, Analytics Club at ETH (ACE)</h3>
+            <span class="timeline-date">2025 — present</span>
+          </div>
+          <p class="timeline-company">ETH Zurich, Switzerland</p>
+          <p class="timeline-desc">
+            Leading marketing strategy and event promotion for one of Europe's largest
+            student-run data science societies.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>Teaching Assistant, Numerical Methods</h3>
+            <span class="timeline-date">02/2024 — 05/2024</span>
+          </div>
+          <p class="timeline-company">ETH Zurich, Switzerland</p>
+          <p class="timeline-desc">
+            Exercise sessions on numerical ODE solvers (Runge-Kutta, implicit, symplectic, stiff methods),
+            numerical linear algebra, and iterative methods for nonlinear equations.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>Research Intern, Isotope Physics Group</h3>
+            <span class="timeline-date">07/2023 — 08/2023</span>
+          </div>
+          <p class="timeline-company">University of Vienna, Austria</p>
+          <p class="timeline-desc">
+            Built a Python pipeline for data evaluation of actinide measurements using accelerator
+            mass spectrometry.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>Teaching Assistant, Physics II & Linear Algebra</h3>
+            <span class="timeline-date">2021 — 2023</span>
+          </div>
+          <p class="timeline-company">ETH Zurich, Switzerland</p>
+          <p class="timeline-desc">
+            TA for Physics II (2023) and Linear Algebra (2021) undergraduate courses.
+          </p>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="section section-alt">
+  <section id="contact" class="section">
     <div class="container contact-container">
       <h2 class="section-title">Contact</h2>
       <p class="contact-intro">
-        I'm always open to new opportunities, collaborations, or just a good
-        conversation. Feel free to reach out.
+        I'm open to research collaborations, opportunities in ML and data science,
+        and interesting conversations. Feel free to reach out.
       </p>
       <div class="contact-links">
-        <a href="mailto:laraturgut@gmail.com" class="contact-item">
+        <a href="mailto:laraturgut@hotmail.com" class="contact-item">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
             <polyline points="22,6 12,13 2,6"/>
           </svg>
-          laraturgut@gmail.com
+          laraturgut@hotmail.com
         </a>
         <a href="https://github.com/lturgut" class="contact-item" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -259,7 +354,7 @@
   </section>
 
   <footer>
-    <p>© 2026 Lara Turgut</p>
+    <p>© 2026 Lara Turgut · Zurich, Switzerland</p>
   </footer>
 
   <script src="script.js"></script>
