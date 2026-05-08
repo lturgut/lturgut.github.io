@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Lara Turgut — Physics MSc Candidate at ETH Zurich, Machine Learning & Probabilistic Modeling">
+  <meta name="description" content="Lara Turgut — ML Researcher specialising in generative AI and Bayesian methods for complex physical and financial systems">
   <title>Lara Turgut</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -16,9 +16,9 @@
     </button>
     <ul class="nav-links" id="nav-links">
       <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#publications">Publications</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#research">Research</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -45,10 +45,11 @@
     <div class="container">
       <p class="hero-greeting">Hi, I'm</p>
       <h1 class="hero-name">Lara Turgut</h1>
-      <p class="hero-title">Physics MSc Candidate · Machine Learning & Probabilistic Modeling</p>
+      <p class="hero-title">ML Researcher · Generative AI & Bayesian Methods</p>
       <p class="hero-bio">
-        I work at the intersection of physics and machine learning — building generative models,
-        equivariant architectures, and probabilistic methods for complex scientific problems at ETH Zurich.
+        I build generative AI systems and Bayesian models for complex problems — from
+        symmetry-constrained architectures for scientific simulation to quantitative reasoning
+        frameworks for financial applications. Currently finishing my MSc at ETH Zurich.
       </p>
       <div class="hero-cta">
         <a href="#projects" class="btn btn-primary">View Projects</a>
@@ -64,17 +65,21 @@
       <div class="about-grid">
         <div class="about-text">
           <p>
-            I'm a Physics MSc candidate at ETH Zurich (GPA 5.63/6.0), specialising in machine learning
-            and probabilistic modeling. My master's thesis — graded 6.0/6.0 — focused on implementing
-            gauge-equivariant U-Net architectures for diffusion models and continuous normalizing flows,
-            as part of an international research collaboration in computational physics.
+            I'm an ML researcher finishing my MSc in Physics at ETH Zurich, specialising in
+            machine learning for complex physical systems with a focus on generative AI. My thesis
+            developed gauge-equivariant U-Net architectures that enable efficient sampling from
+            high-dimensional distributions — a scalable alternative to traditional Markov Chain
+            Monte Carlo methods — as part of an international research collaboration in
+            computational physics.
           </p>
           <p>
-            Beyond research, I've won 1st place at the UN OCHA Datathon and the UBS Case Competition
-            at ETH Zurich, and I serve as Head of Marketing at the Analytics Club at ETH (ACE).
-            I enjoy problems that sit at the edge of rigorous theory and practical impact.
+            I placed 1st at the UN OCHA Datathon (Switzerland's largest ML hackathon) and at the
+            UBS Case Competition at ETH — an asset management and investment banking simulation —
+            where I was individually recognised as a top performer and referred directly to UBS
+            recruitment. I also lead marketing strategy for the Analytics Club at ETH, one of
+            Europe's largest student-run data science societies.
           </p>
-          <a href="CV (17).pdf" class="btn btn-primary" target="_blank" rel="noopener">Download CV</a>
+          <a href="cv_lara_turgut.pdf" class="btn btn-primary" target="_blank" rel="noopener">Download CV</a>
         </div>
         <div class="about-image">
           <img src="cv_photo.jpg" alt="Lara Turgut">
@@ -83,8 +88,103 @@
     </div>
   </section>
 
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Gauge-Equivariant U-Net for Generative Models</h3>
+            <span class="card-badge">Master's Thesis</span>
+          </div>
+          <p class="card-desc">
+            Designed and implemented a gauge-equivariant U-Net in PyTorch for generative modeling
+            on SU(N) lattice gauge theories. The architecture encodes physical symmetry constraints
+            directly into the network, enabling diffusion models and continuous normalizing flows
+            to efficiently sample from high-dimensional distributions — a scalable alternative to
+            traditional Markov Chain Monte Carlo methods. Work led to a submitted paper with the
+            ETH High Performance Computational Physics group (<a href="https://arxiv.org/abs/2605.06134" target="_blank" rel="noopener">arXiv:2605.06134</a>).
+          </p>
+          <div class="card-tags">
+            <span class="tag">PyTorch</span>
+            <span class="tag">Diffusion Models</span>
+            <span class="tag">Equivariant NNs</span>
+            <span class="tag">Normalizing Flows</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/lturgut" class="btn-link" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">LLM Benchmarking for Financial Reasoning</h3>
+            <span class="card-badge">Apertus · Ongoing</span>
+          </div>
+          <p class="card-desc">
+            Building an evaluation framework for LLMs on compositional financial reasoning in
+            collaboration with Apertus, Switzerland's national LLM initiative. Designed a synthetic
+            dataset of multi-step financial Q&amp;A pairs generated via expression trees, and
+            evaluated frontier models using fine-tuning and structured prompting — targeting
+            systematic gaps in how LLMs handle structured numerical reasoning.
+          </p>
+          <div class="card-tags">
+            <span class="tag">LLMs</span>
+            <span class="tag">Python</span>
+            <span class="tag">NLP</span>
+            <span class="tag">Benchmarking</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/lturgut" class="btn-link" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">UN OCHA Datathon — 1st Place</h3>
+            <span class="card-badge card-badge--gold">🏆 1st Place</span>
+          </div>
+          <p class="card-desc">
+            Built an explainable Bayesian model to surface systematically under-funded humanitarian
+            crises. The model infers a latent donor-neglect variable from needs assessments, funding
+            flows, and donor priorities — winning 1st place at Switzerland's largest ML hackathon.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Bayesian Modeling</span>
+            <span class="tag">Python</span>
+            <span class="tag">Explainable AI</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">BKT Phase Transition Simulation</h3>
+            <span class="card-badge">Research</span>
+          </div>
+          <p class="card-desc">
+            Implemented the Wolff cluster Monte Carlo algorithm to simulate the 2D classical XY
+            model and characterise the Berezinskii–Kosterlitz–Thouless phase transition. Involved
+            statistical analysis of correlation functions and finite-size scaling in an
+            interdisciplinary team at ETH Zurich.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Monte Carlo</span>
+            <span class="tag">Statistical Analysis</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/lturgut" class="btn-link" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <!-- SKILLS -->
-  <section id="skills" class="section">
+  <section id="skills" class="section section-alt">
     <div class="container">
       <h2 class="section-title">Skills</h2>
       <div class="skills-grid">
@@ -131,107 +231,25 @@
     </div>
   </section>
 
-  <!-- PROJECTS -->
-  <section id="projects" class="section section-alt">
+  <!-- RESEARCH -->
+  <section id="research" class="section">
     <div class="container">
-      <h2 class="section-title">Projects</h2>
-      <div class="projects-grid">
-
-        <div class="card">
-          <div class="card-header">
-            <h3 class="card-title">Gauge-Equivariant U-Net for Generative Models</h3>
-            <span class="card-badge">Thesis · 6.0/6.0</span>
-          </div>
-          <p class="card-desc">
-            Implemented and evaluated a gauge-equivariant U-Net architecture for generative modeling
-            on SU(N) lattice gauge theories. Applied diffusion models as efficient alternatives to
-            traditional MCMC sampling, within an international research collaboration at ETH Zurich.
-          </p>
-          <div class="card-tags">
-            <span class="tag">PyTorch</span>
-            <span class="tag">Diffusion Models</span>
-            <span class="tag">Equivariant NNs</span>
-            <span class="tag">Python</span>
-          </div>
-          <div class="card-links">
-            <a href="https://github.com/lturgut" class="btn-link" target="_blank" rel="noopener">GitHub →</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <h3 class="card-title">LLM Benchmarking for Financial Reasoning</h3>
-            <span class="card-badge">Ongoing</span>
-          </div>
-          <p class="card-desc">
-            In collaboration with Apertus (Swiss LLM initiative). Benchmarking large language models
-            on compositional financial reasoning tasks. Designed synthetic financial datasets and
-            multi-step Q&amp;A pairs using expression trees to evaluate model reasoning.
-          </p>
-          <div class="card-tags">
-            <span class="tag">LLMs</span>
-            <span class="tag">Python</span>
-            <span class="tag">NLP</span>
-            <span class="tag">Benchmarking</span>
-          </div>
-          <div class="card-links">
-            <a href="https://github.com/lturgut" class="btn-link" target="_blank" rel="noopener">GitHub →</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <h3 class="card-title">UN OCHA Datathon — 1st Place</h3>
-            <span class="card-badge card-badge--gold">🏆 1st Place</span>
-          </div>
-          <p class="card-desc">
-            Switzerland's largest ML hackathon. Built an explainable Bayesian model to identify
-            under-funded humanitarian crises, using a latent variable capturing systematic donor
-            neglect informed by needs, funding, and donor priorities.
-          </p>
-          <div class="card-tags">
-            <span class="tag">Bayesian Modeling</span>
-            <span class="tag">Python</span>
-            <span class="tag">Explainable AI</span>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <h3 class="card-title">BKT Transition in the 2D XY Model</h3>
-            <span class="card-badge">Research</span>
-          </div>
-          <p class="card-desc">
-            Simulated the 2D classical XY model using the Wolff cluster algorithm to study the
-            Berezinskii–Kosterlitz–Thouless phase transition in an interdisciplinary team at ETH Zurich.
-          </p>
-          <div class="card-tags">
-            <span class="tag">Python</span>
-            <span class="tag">Monte Carlo</span>
-            <span class="tag">Statistical Physics</span>
-          </div>
-          <div class="card-links">
-            <a href="https://github.com/lturgut" class="btn-link" target="_blank" rel="noopener">GitHub →</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- PUBLICATIONS -->
-  <section id="publications" class="section">
-    <div class="container">
-      <h2 class="section-title">Publications</h2>
+      <h2 class="section-title">Research</h2>
       <div class="pub-list">
         <div class="pub-item">
           <p class="pub-authors">Komijani, J., Marinković, M. K., <strong>Turgut, L.</strong></p>
-          <p class="pub-title">Diffusion Models for SU(N) Gauge Theories</p>
-          <p class="pub-meta">Manuscript in preparation · 2026</p>
+          <p class="pub-title">Diffusion model for SU(N) gauge theories</p>
+          <p class="pub-meta">
+            Submitted · May 2026 ·
+            <a href="https://arxiv.org/abs/2605.06134" target="_blank" rel="noopener">arXiv:2605.06134</a>
+          </p>
           <p class="pub-desc">
-            Built and validated a gauge-equivariant U-Net architecture for generative modeling on SU(N)
-            lattice gauge theories, with findings directly shaping an international research collaboration
-            led by the ETH Zurich High Performance Computational Physics group.
+            Presents a score-matching framework for training diffusion models on SU(N) lattice gauge
+            theories. Applied to SU(3) gauge configurations in two and four dimensions; generated
+            samples validated against Hybrid Monte Carlo simulations. For high inverse coupling,
+            predictor-corrector schemes with Hamiltonian molecular dynamics corrections improve
+            sampling quality. Part of an international collaboration led by the ETH Zurich High
+            Performance Computational Physics group.
           </p>
         </div>
       </div>
@@ -243,33 +261,7 @@
     <div class="container">
       <h2 class="section-title">Experience</h2>
 
-      <h3 class="subsection-label">Education</h3>
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-header">
-            <h3>MSc Physics</h3>
-            <span class="timeline-date">2023 — present</span>
-          </div>
-          <p class="timeline-company">ETH Zurich, Switzerland · GPA 5.63/6.0</p>
-          <p class="timeline-desc">
-            Specialising in machine learning and probabilistic modeling. Exchange semester at EPFL
-            (2023–2024). Thesis on gauge-equivariant generative architectures, graded 6.0/6.0.
-          </p>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-header">
-            <h3>BSc Physics</h3>
-            <span class="timeline-date">2019 — 2023</span>
-          </div>
-          <p class="timeline-company">ETH Zurich, Switzerland</p>
-          <p class="timeline-desc">
-            Bachelor project: The Caesium Magnetometer Array of the Gradiometer for the n2EDM
-            Experiment at PSI.
-          </p>
-        </div>
-      </div>
-
-      <h3 class="subsection-label" style="margin-top: 2.5rem;">Work & Teaching</h3>
+      <h3 class="subsection-label">Work</h3>
       <div class="timeline">
         <div class="timeline-item">
           <div class="timeline-header">
@@ -280,17 +272,6 @@
           <p class="timeline-desc">
             Leading marketing strategy and event promotion for one of Europe's largest
             student-run data science societies.
-          </p>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-header">
-            <h3>Teaching Assistant, Numerical Methods</h3>
-            <span class="timeline-date">02/2024 — 05/2024</span>
-          </div>
-          <p class="timeline-company">ETH Zurich, Switzerland</p>
-          <p class="timeline-desc">
-            Exercise sessions on numerical ODE solvers (Runge-Kutta, implicit, symplectic, stiff methods),
-            numerical linear algebra, and iterative methods for nonlinear equations.
           </p>
         </div>
         <div class="timeline-item">
@@ -306,12 +287,38 @@
         </div>
         <div class="timeline-item">
           <div class="timeline-header">
-            <h3>Teaching Assistant, Physics II & Linear Algebra</h3>
-            <span class="timeline-date">2021 — 2023</span>
+            <h3>Teaching Assistant — Numerical Methods, Physics II, Linear Algebra</h3>
+            <span class="timeline-date">2021 — 2024</span>
           </div>
           <p class="timeline-company">ETH Zurich, Switzerland</p>
           <p class="timeline-desc">
-            TA for Physics II (2023) and Linear Algebra (2021) undergraduate courses.
+            TA across three courses: Numerical Methods (ODE solvers, numerical linear algebra),
+            Physics II, and Linear Algebra.
+          </p>
+        </div>
+      </div>
+
+      <h3 class="subsection-label" style="margin-top: 2.5rem;">Education</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>MSc Physics — Machine Learning & Probabilistic Modeling</h3>
+            <span class="timeline-date">2023 — present</span>
+          </div>
+          <p class="timeline-company">ETH Zurich, Switzerland</p>
+          <p class="timeline-desc">
+            Thesis: gauge-equivariant generative architectures for lattice gauge theories.
+            Exchange semester at EPFL (2023–2024).
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>BSc Physics</h3>
+            <span class="timeline-date">2019 — 2023</span>
+          </div>
+          <p class="timeline-company">ETH Zurich, Switzerland</p>
+          <p class="timeline-desc">
+            Bachelor project: Caesium Magnetometer Array for the n2EDM Experiment at PSI.
           </p>
         </div>
       </div>
@@ -323,8 +330,9 @@
     <div class="container contact-container">
       <h2 class="section-title">Contact</h2>
       <p class="contact-intro">
-        I'm open to research collaborations, opportunities in ML and data science,
-        and interesting conversations. Feel free to reach out.
+        I'm open to ML researcher, research engineer, and quantitative roles — including
+        quant research, risk, and data analytics. Also happy to discuss research collaborations.
+        Feel free to reach out.
       </p>
       <div class="contact-links">
         <a href="mailto:laraturgut@hotmail.com" class="contact-item">
