@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"C:\\\\Users\\\\larat\\\\miniconda3\\\\Library\\\\bin\\\\git.exe\" -C \"c:\\\\Users\\\\larat\\\\projects\\\\lturgut.github.io\" add -A)",
+      "PowerShell(& \"C:\\\\Users\\\\larat\\\\miniconda3\\\\Library\\\\bin\\\\git.exe\" -C \"c:\\\\Users\\\\larat\\\\projects\\\\lturgut.github.io\" commit -m \"Shorten thesis and research project card titles\")"
+    ]
+  }
+}
